@@ -1,0 +1,21 @@
+# build output
+bin/
+obj/
+*.pdb
+
+# local files that belong to one machine / one game install
+offsets.json
+infinite.log
+panel-settings.json
+panel-settings.json.demo
+selftest.txt
+uitest.txt
+epona-live.txt
+
+# the release zip and exe go on the GitHub Releases page, not in the repository
+release/*.zip
+release/**/*.exe
+
+# editor
+.vs/
+*.user
